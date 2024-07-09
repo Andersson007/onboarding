@@ -2,7 +2,8 @@
 
 This section helps you add documentation to your Ansible project or improve your existing documentation.
 The onboarding [project-template](https://github.com/ansible-community/project-template)
-in GitHub gives you the scaffolding files to start your documentation effort. 
+in GitHub gives you the scaffolding files to start your documentation effort.
+A website built from the template is available on [ReadTheDocs](https://ansible.readthedocs.io/projects/ansible-project-template/en/latest/).
 
 ## Creating new documentation projects
 
@@ -88,14 +89,18 @@ for further details, but keep in mind it uses asciidoc, not markdown.
 
 Your project likely needs the following types of documentation:
 
-* Installation
-* Getting started
-* Configuration/CLI reference
-* User guide
-* Contributor or developer guide
+* License information.
+* Community guide: includes a code of conduct reference and communication guide.
+* User guide: includes a getting started, installation, configuration guides and CLI reference.
+* Contributor guide: describes the project place in the Ansible ecosystem, provides guidelines on non-code and code contributions including documentation and testing.
+* Maintainer guide: covers how to become a maintainer and their responsibilities, governance, releasing, and other maintainer tasks specific to the project.
 
+The [docsite template](https://ansible.readthedocs.io/projects/ansible-project-template/en/latest/) provided by [project_template repository](https://github.com/ansible-community/project-template) contains templates for all the guides above with explanations and recommendations.
 
-### Installation uide
+There are additional recommendations below for some of the guides.
+
+### Installation guide
+
 This is how to install your project. It should be procedure-focused and include:
 
 - Installing
@@ -109,6 +114,7 @@ Consider including procedures for more than one OS/environment if your
 project supports this.
 
 ### Getting started
+
 This guide acts as a tutorial for the reader. It should cover a simple scenario
  that the reader can follow to get their first 'thing done'. This is the 
  'Hello World' for your project.
@@ -140,6 +146,7 @@ You should consider having a project roadmap so contributors and users of your p
 is coming in future releases.
 
 ### User Guide
+
 This is where you want to really think not just about what features your project provides,
  but what problems it solves. These are your 'How To' pages. Again, consider those user stories:
 
@@ -168,6 +175,7 @@ That detail should be in a reference section, or in a follow-on procedure.
 
 
 ### Contributor guide
+
 As these are open source projects, you want to give your potential contributors
 an easy entry into your project. Keep in mind contributors can go beyond code contributions. 
 
